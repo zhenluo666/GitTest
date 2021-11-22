@@ -31,9 +31,22 @@ git pull
 :wq
 #### 9. Edit git configuration file (author and email)
 git config --global --edit
+#### 10. Help
+git --help
 ### Branches
 #### 1. Make branches (avoid messing up with main/master branch and able to merge later)
-git checkout -b zhenluo_patch_1
+git branch new_branch
+git branch new_branch base_branch
+git checkout -b new_branch
+#### 2. Switch to a specific branch
+git checkout branch_name
+#### 3. Branch operation
+git branch --list  
+git branch -D branch_to_be_deleted  
+git branch -M branch_to_be renamed  
+git branch -C branch_to_be_copied
+
+
 
 
 
