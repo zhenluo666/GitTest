@@ -18,3 +18,11 @@ git commit -m "updated the README with more commands"
 git push
 #### 7. Sync the repository from github server to local
 git pull
+#### Editing in git config (save or exit)
+##### --- Press Esc to change from Edit Mode to Command Mode
+##### --- Exit only
+:q
+##### --- Exit without saving
+:q!
+##### --- Exit with saving
+:wq
