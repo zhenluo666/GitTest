@@ -55,9 +55,10 @@ git branch -M {branch_to_be renamed}
 git branch -C {branch_to_be_copied}
 #### 4. Merge branch (merge a specific branch/commit to current branch)
 git merge {branch_name}  
-git fetch {remote_repository} {remote_branch} && git merge {remote_repository}/{remote_branch}
+git fetch origin {remote_branch} && git merge origin/{remote_branch}  
+git fetch {remote_repository} {remote_branch} && git merge {remote_repository}/{remote_branch}  
 % There may be merge conflict which needs your check into files and make modifications  
 % Merge conflict has to be resolved before switch branch
 
 
-TEST
+
