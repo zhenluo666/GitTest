@@ -2,7 +2,7 @@
 ### Git commands
 #### 1. Clone the repository to your local machine (go to the directory of your local machine)
 git clone https://github.com/zhenluo666/GitTutorial
-#### 2. Get the status of repository
+#### 2. Get the status of repository at local
 git status
 #### 3. Include untracked files or update unstaged files at git status check
 ##### --- Add/Update a specific file
