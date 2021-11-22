@@ -23,7 +23,8 @@ git commit -m "updated the README with more commands"
 git add . && git commit -m "add more lines"
 #### 6. Sync the repository from local to github server (remote)
 git push  
-git push -u origin main
+git push -u origin main  
+git push origin {new_remote_branch}
 #### 7. Sync the repository from github server (remote) to local
 ##### --- Retrieve/Fetch remote-tracking branches (After fetch, you can merge the received commits into local branch using git merge)
 git fetch  
