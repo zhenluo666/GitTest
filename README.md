@@ -47,6 +47,6 @@ git merge branch_name
 % Merge conflict has to be resolved before switch branch
 
 
-
+BLABLA
 
 test
