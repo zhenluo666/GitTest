@@ -32,7 +32,8 @@ git fetch {remote_repository} {remote_branch}
 git pull  
 git pull origin {remote_branch}:{local_branch}  
 git pull {remote_repository} {remote_branch}:{local_branch}  
-git checkout -b {new_local_branch} origin/{remote_branch}
+git checkout -b {new_local_branch} origin/{remote_branch}  
+% Note pull may create merge conflict which needs to be fixed
 #### 8. Editing in git config (exit only; exit w/o saving; exit w/ saving)
 :q  
 :q!  
