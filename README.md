@@ -60,3 +60,4 @@ git merge {remote_repository}/{remote_branch}
 % Merge conflict has to be resolved before switch branch
 
 
+TEST
