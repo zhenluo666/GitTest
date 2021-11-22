@@ -4,7 +4,8 @@
 ##### --- Clone the repository to your local machine (go to the directory at your local machine)
 git clone https://github.com/zhenluo666/GitTutorial
 ##### --- Instead of cloning, you can also creat a new repository at local machine (go to the directory at your local machine)
-git init
+git init  
+git remote add origin https://github.com/zhenluo666/GitTutorial  
 #### 2. Get the status of repository at local
 git status
 #### 3. Include untracked files or update unstaged files at git status check (after you make changes to files in local repository)
@@ -21,7 +22,8 @@ git commit -m "updated the README with more commands"
 ##### --- Combine add and commit commands (using &&)
 git add . && git commit -m "add more lines"
 #### 6. Sync the repository from local to github server
-git push
+git push  
+git push -u origin main
 #### 7. Sync the repository from github server to local
 ##### --- Retrieve/Fetch remote-tracking branches (After fetch, you can merge the received commits into local branch using git merge)
 git fetch  
