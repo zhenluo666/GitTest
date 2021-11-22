@@ -10,5 +10,7 @@ git add filename
 git restore filename
 #### 5. Commit the change (with messages -m)
 git commit -m "updated the README with more commands"
-#### 6. Sync the repository wrt github server
+#### 6. Sync the repository from local to github server
 git push
+#### 7. Sync the repository from github server to local
+git pull
