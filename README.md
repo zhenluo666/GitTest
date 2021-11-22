@@ -24,12 +24,12 @@ git add . && git commit -m "add more lines"
 git push
 #### 7. Sync the repository from github server to local
 ##### --- Retrieve/Fetch remote-tracking branches (After fetch, you can merge the received commits into local branch using git merge)
-git fetch
+git fetch  
 git fetch {remote_repository} {remote_branch}
 ##### --- Retrieve and merge from remote (git pull = git fetch + git merge)
-git pull
-git pull origin {remote_branch}:{local_branch}
-git pull {remote_repository} {remote_branch}:{local_branch}
+git pull  
+git pull origin {remote_branch}:{local_branch}  
+git pull {remote_repository} {remote_branch}:{local_branch}  
 git checkout -b {new_local_branch} origin/{remote_branch}
 #### 8. Editing in git config (exit only; exit w/o saving; exit w/ saving)
 :q  
