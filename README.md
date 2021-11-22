@@ -21,10 +21,10 @@ git restore {filename}
 git commit -m "updated the README with more commands"
 ##### --- Combine add and commit commands (using &&)
 git add . && git commit -m "add more lines"
-#### 6. Sync the repository from local to github server
+#### 6. Sync the repository from local to github server (remote)
 git push  
 git push -u origin main
-#### 7. Sync the repository from github server to local
+#### 7. Sync the repository from github server (remote) to local
 ##### --- Retrieve/Fetch remote-tracking branches (After fetch, you can merge the received commits into local branch using git merge)
 git fetch  
 git fetch {remote_repository} {remote_branch}
@@ -33,7 +33,7 @@ git pull
 git pull origin {remote_branch}:{local_branch}  
 git pull {remote_repository} {remote_branch}:{local_branch}  
 git checkout -b {new_local_branch} origin/{remote_branch}  
-% Note pull may create merge conflict which needs to be fixed
+% Note pull may create merge conflict between remote and local that you need to be fix and commit the change
 #### 8. Editing in git config (exit only; exit w/o saving; exit w/ saving)
 :q  
 :q!  
