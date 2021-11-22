@@ -1,7 +1,9 @@
 # Git Tutorial
 ### Git commands
-#### 1. Clone the repository to your local machine (go to the directory of your local machine)
+#### 1. Clone the repository to your local machine (go to the directory at your local machine)
 git clone https://github.com/zhenluo666/GitTutorial
+##### --- Instead of cloning, you can also creat a new repository at local machine (go to the directory at your local machine)
+git init
 #### 2. Get the status of repository at local
 git status
 #### 3. Include untracked files or update unstaged files at git status check
