@@ -21,14 +21,10 @@ git commit -m "updated the README with more commands"
 git push
 #### 7. Sync the repository from github server to local
 git pull
-#### 8. Editing in git config (save or exit)
-##### --- Press Esc to change from Edit Mode to Command Mode.  
-##### --- Exit only
-:q
-##### --- Exit without saving
-:q!
-##### --- Exit with saving
-:wq
+#### 8. Editing in git config (exit only; exit w/o saving; exit w/ saving)
+:q  
+:q!  
+:wq  
 #### 9. Edit git configuration file (author and email)
 git config --global --edit
 #### 10. Help
@@ -46,7 +42,9 @@ git branch -D branch_to_be_deleted
 git branch -M branch_to_be renamed  
 git branch -C branch_to_be_copied
 #### 4. Merge branch (merge a specific branch/commit to current branch)
-git merge branch_name
+git merge branch_name  
+% There may be merge conflict which needs your check into files and make modifications  
+% Merge conflict has to be resolved before switch branch
 
 
 
