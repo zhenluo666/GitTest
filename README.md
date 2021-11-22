@@ -38,14 +38,15 @@ git --help
 git branch new_branch
 git branch new_branch base_branch
 git checkout -b new_branch
-#### 2. Switch to a specific branch
+#### 2. Switch to a specific branch (commit changes before switch)
 git checkout branch_name
 #### 3. Branch operation
 git branch --list  
 git branch -D branch_to_be_deleted  
 git branch -M branch_to_be renamed  
 git branch -C branch_to_be_copied
-
+#### 4. Merge branch (merge a specific branch/commit to current branch)
+git merge branch_name
 
 
 
