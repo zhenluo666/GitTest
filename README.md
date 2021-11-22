@@ -20,6 +20,9 @@ git commit -m "updated the README with more commands"
 #### 6. Sync the repository from local to github server
 git push
 #### 7. Sync the repository from github server to local
+##### --- Retrieve/Fetch remote-tracking branches (After fetch, you can merge the received commits into local branch using git merge)
+git fetch
+##### --- Retrieve and merge from remote (git pull = git fetch + git merge)
 git pull
 #### 8. Editing in git config (exit only; exit w/o saving; exit w/ saving)
 :q  
@@ -47,5 +50,3 @@ git merge branch_name
 % Merge conflict has to be resolved before switch branch
 
 
-
-test
