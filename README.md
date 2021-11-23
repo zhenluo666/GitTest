@@ -17,10 +17,12 @@ git add *
 git add -A
 #### 4. Discard changes to an existed file (restore the file wrt github server version)
 git restore {filename}
-#### 5. Commit the change (with messages -m)
+#### 5. Commit the change from staging to local repository (with messages -m)
 git commit -m "updated the README with more commands"
 ##### --- Combine add and commit commands (using &&)
 git add . && git commit -m "add more lines"
+##### --- Check the info of commit (commit hash number, author, date, etc.)
+git log
 #### 6. Sync the repository from local to github server (remote)
 git push  
 git push -u origin main  
@@ -43,6 +45,15 @@ git checkout -b {new_local_branch} origin/{remote_branch}
 git config --global --edit
 #### 10. Help
 git --help
+#### 11. Remove files from staging area (undo the git add)
+git reset {filename}
+#### 12. Undo the git commit at local repository
+git reset --hard origin/{branch_name}
+#### 13. View infomation about the remote repository
+git remote -v  
+git branch -a
+#### 14. Changes in the local files not yet staged for the next commit
+git diff
 ### Branches
 #### 1. Make branches (avoid messing up with main/master branch and able to merge later)
 git branch {new_branch}  
@@ -56,7 +67,8 @@ git checkout {branch_name}
 git branch --list  
 git branch -D {branch_to_be_deleted}  
 git branch -M {branch_to_be renamed}  
-git branch -C {branch_to_be_copied}
+git branch -C {branch_to_be_copied}  
+git push origin --delete {remote_branch_to_be_deleted}
 #### 4. Merge branch (merge a specific branch/commit to current branch)
 git merge {branch_name}  
 git fetch origin {remote_branch} && git merge origin/{remote_branch}  
