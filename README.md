@@ -52,8 +52,8 @@
 #### 13. View infomation about the remote repository
 `git remote -v`  
 `git branch -a`
-#### 14. Changes in the local files not yet staged for the next commit
-`git diff`
+#### 14. Obtain the difference between branches
+`git diff {main_branch} {new_branch}`
 ### Branches
 #### 1. Make branches (avoid messing up with main/master branch and able to merge later)
 `git branch {new_branch}`  
