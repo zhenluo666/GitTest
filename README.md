@@ -54,6 +54,7 @@
 `git branch -a`
 #### 14. Obtain the difference between branches
 `git diff {main_branch} {new_branch}`
+
 ### Branches
 #### 1. Make branches (avoid messing up with main/master branch and able to merge later)
 `git branch {new_branch}`  
