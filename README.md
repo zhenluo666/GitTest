@@ -77,6 +77,3 @@
 % There may be merge conflict which needs your check into files and make modifications  
 % Merge conflict has to be resolved before switch branch
 
-
-tes
-abc
